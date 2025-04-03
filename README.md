@@ -30,8 +30,8 @@ Xenotune/
 |   |── contact.js    # Forms JS file
 |
 |── LICENSE         # Project license
-│── SECURITY.md         # Project Security
 │── README.md         # Project documentation
+│── SECURITY.md         # Project Security
 │── index.html        # Main landing page
 
 ```
