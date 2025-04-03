@@ -29,8 +29,9 @@ Xenotune/
 |── forms/
 |   |── contact.js    # Forms JS file
 |
-│── index.html        # Main landing page
 │── README.md         # Project documentation
+│── index.html        # Main landing page
+
 ```
 
 ## 🎯 Features
