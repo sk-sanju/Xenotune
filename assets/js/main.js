@@ -1,11 +1,3 @@
-/**
-* Template Name: SoftLand
-* Template URL: https://bootstrapmade.com/softland-bootstrap-app-landing-page-template/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 (function() {
   "use strict";
 
