@@ -29,6 +29,8 @@ Xenotune/
 |── forms/
 |   |── contact.js    # Forms JS file
 |
+|── LICENSE         # Project license
+│── SECURITY.md         # Project Security
 │── README.md         # Project documentation
 │── index.html        # Main landing page
 
