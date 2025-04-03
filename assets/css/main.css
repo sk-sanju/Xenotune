@@ -12,43 +12,42 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Raleway",  sans-serif;
-  --nav-font: "Poppins",  sans-serif;
+  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Raleway", sans-serif;
+  --nav-font: "Poppins", sans-serif;
 }
 
-/* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
+/* Global Colors - Black & White Theme */
 :root { 
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #212529; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #2d465e; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #559bcc; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --background-color: #000000; /* Black background for the entire website */
+  --default-color: #ffffff; /* White text for readability */
+  --heading-color: #ffffff; /* White color for headings, subheadings, and titles */
+  --accent-color: #aaaaaa; /* Grey accent color for subtle highlights */
+  --surface-color: #1a1a1a; /* Dark grey background for boxed elements */
+  --contrast-color: #ffffff; /* White text to ensure contrast */
 }
 
-/* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
+/* Nav Menu Colors - Adjusted for black-and-white theme */
 :root {
-  --nav-color: rgba(255, 255, 255, 0.5);  /* The default color of the main navmenu links */
-  --nav-hover-color: #ffffff; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #212529; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #559bcc; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-color: rgba(255, 255, 255, 0.7);  /* Light grey nav menu links */
+  --nav-hover-color: #ffffff; /* White color on hover for better contrast */
+  --nav-mobile-background-color: #000000; /* Black background for mobile nav */
+  --nav-dropdown-background-color: #1a1a1a; /* Dark grey dropdown background */
+  --nav-dropdown-color: #ffffff; /* White text for dropdown links */
+  --nav-dropdown-hover-color: #aaaaaa; /* Lighter grey hover color for dropdown links */
 }
 
-/* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
-
+/* Color Presets - Overrides for specific sections */
 .light-background {
-  --background-color: #f1f3f8;
-  --surface-color: #ffffff;
+  --background-color: #222222; /* Dark grey for a lighter contrast */
+  --surface-color: #333333;
 }
 
 .dark-background {
-  --background-color: #142e6c;
+  --background-color: #000000;
   --default-color: #ffffff;
   --heading-color: #ffffff;
-  --surface-color: #1c4097;
+  --surface-color: #1a1a1a;
   --contrast-color: #ffffff;
 }
 
@@ -170,13 +169,13 @@ h6 {
 }
 
 .scrolled .header {
-  box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0 18px rgba(0, 0, 0, 0.397);
 }
 
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-  --background-color: rgba(20, 46, 108, 0.9);
+  --background-color: rgba(0, 0, 0, 0.548);
 }
 
 /*--------------------------------------------------------------
